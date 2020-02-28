@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"cl.awakelab.precios"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"cl.awakelab.app"},{"l":"cl.awakelab.precios"}]

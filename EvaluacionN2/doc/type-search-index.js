@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"cl.awakelab.precios","l":"Electrodomestico"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"cl.awakelab.app","l":"Ejecutable"},{"p":"cl.awakelab.precios","l":"Electrodomestico"},{"p":"cl.awakelab.precios","l":"ElectrodomesticoTest"},{"p":"cl.awakelab.precios","l":"Lavadora"},{"p":"cl.awakelab.precios","l":"Televisor"}]

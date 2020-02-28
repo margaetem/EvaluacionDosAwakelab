@@ -29,6 +29,11 @@ public class Ejecutable {
 		double sumaPrecioTele = 0;
 		double sumaPrecioLavadora = 0;
 		
+		/**
+		 * Se crea un array de 10 posiciones para guardar los objetos que creamos con los contructores
+		 * que estan en cada clase.
+		 */
+		
 		Electrodomestico lista[] = new Electrodomestico[10];
 		lista[0] = new Televisor(10, 40, 'b', "Purpura", 42.1, true);
 		lista[1] = new Televisor();
@@ -40,6 +45,12 @@ public class Ejecutable {
 		lista[7] = new Electrodomestico(45, 10);
 		lista[8] = new Electrodomestico(5, 3, 'C', "rojo");
 		lista[9] = new Electrodomestico(13, 8, 'E', "Celeste");
+		
+		/**
+		 * Se recorre el arreglo para modificar el precio final y dependiendo del tipo de objeto,
+		 * el precio se almacena en distintas variables. instanceof nos ayudar a reafirmar que
+		 * el objeto pertenece a cierta clase.
+		 */
 		
 		for (int i = 0; i < lista.length; i++) {
 			
@@ -56,6 +67,10 @@ public class Ejecutable {
 			}
 		 
 		}
+		
+		/**
+		 * Los resultados se imprimen en la consola, separados en sus variables correspondientes.
+		 */
 		
 		System.out.println("El precio total de los televisores es: € " + sumaPrecioTele);
 		System.out.println("El precio total de las lavadoras es: € " + sumaPrecioLavadora);
