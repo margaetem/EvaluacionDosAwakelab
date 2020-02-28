@@ -16,3 +16,5 @@ los precios finales se sumaran con los de su misma clase, mostrando por separado
  El detalle de cada parte se encuentra dentro del programa, visible también por javaDoc. 
  
 Este programa se realizó con el IDE Eclipse.
+
+****Faltó realizar pruebas unitarias***
