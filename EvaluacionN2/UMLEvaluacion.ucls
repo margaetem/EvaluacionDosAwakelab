@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="cl.awakelab.precios.Electrodomestico" project="EvaluacionN2" 
+    file="/EvaluacionN2/src/cl/awakelab/precios/Electrodomestico.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="327" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="2" language="java" name="cl.awakelab.precios" project="EvaluacionN2" 
+    file="/EvaluacionN2/src/cl/awakelab/precios" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="85" y="16"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="3" language="java" name="cl.awakelab.app.Ejecutable" project="EvaluacionN2" 
+    file="/EvaluacionN2/src/cl/awakelab/app/Ejecutable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="767" y="67"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="cl.awakelab.precios.Lavadora" project="EvaluacionN2" 
+    file="/EvaluacionN2/src/cl/awakelab/precios/Lavadora.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="467" y="527"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="cl.awakelab.precios.Televisor" project="EvaluacionN2" 
+    file="/EvaluacionN2/src/cl/awakelab/precios/Televisor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="763" y="302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="cl.awakelab.precios.ElectrodomesticoTest" project="EvaluacionN2" 
+    file="/EvaluacionN2/src/cl/awakelab/precios/ElectrodomesticoTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="93" y="178"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="7" language="java" name="cl.awakelab.app" project="EvaluacionN2" file="/EvaluacionN2/src/cl/awakelab/app" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="73" y="79"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
